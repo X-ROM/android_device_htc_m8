@@ -102,6 +102,11 @@ TARGET_USES_C2D_COMPOSITION := true
 TARGET_USES_ION := true
 BOARD_EGL_CFG := device/htc/m8/configs/egl.cfg
 
+# Vendor Init
+TARGET_UNIFIED_DEVICE := true
+TARGET_INIT_VENDOR_LIB := libinit_m8
+TARGET_LIBINIT_DEFINES_FILE := device/htc/m8/init/init_m8.c
+
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
